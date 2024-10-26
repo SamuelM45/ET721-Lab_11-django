@@ -1,0 +1,16 @@
+*{box-sizing: border-box;}
+.maincontainer{
+    width: 1000px;
+    background-color: aliceblue;
+    margin: 5em auto;
+    padding: 2em;
+}
+.apptitle{text-align: center;}
+.dolistform{margin-top: 2em;}
+.formgroup{margin-top: 2em;}
+.todo_text{padding: 0.5em; border-radius: 5px; border: solid gray 1px; width: 400px;}
+.btnadd, .btn_deleteech, .btn_deleteall{background-color: crimson; border: none; padding: 0.5em; border-radius: 5px;}
+.btnadd{background-color: olive;}
+.btn_deleteall, .btn_deleteech{background-color: crimson;}
+.btn_deleteall:hover, .btn_deleteech:hover{background-color: darkred; font-weight: bolder;}
+.btnadd:hover{background-color: olive; cursor: pointer;}

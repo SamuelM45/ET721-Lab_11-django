@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samuel Martinez</title>
+    <title>Lab 11 by Samuel Martinez</title>
+    <link rel="stylesheet" href="doliststyle.css">
 </head>
 <body>
     <main class="maincontainer">
+        <h1 class="apptitle">To do list</h1>
         <form class="dolistform">
             <section class="formgroup">
                 <label for="task">What do do?...</label>
-                <input type="text" id="task" class="todo_text">
+                <input type="text" id="task" class="todo_text" placeholder="type your task...">
                 <button class="btnsubmit">ADD TO LIST</button>
+            </section>
+            <section class="formgroup">
+                <button class="btn_deleteeach">DELETE COMPLETED</button>
+                <button class="btn_deleteall">DELETE ALL</button>
+            </section>
+            <section class="formgroup">
+                <h3>Added to list</h3>
+                <ul>
+                    <li>Finish Django lab 11</li>
+                </ul>
             </section>
         </form>
     </main>
